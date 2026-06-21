@@ -88,7 +88,7 @@ print(
     )
 )
 
-# Top Features
+## Top Features
 feature_importance = pd.DataFrame({
     "Feature": X.columns,
     "Importance": model.feature_importances_
@@ -99,5 +99,12 @@ feature_importance = feature_importance.sort_values(
     ascending=False
 )
 
+feature_importance.to_csv(
+    "feature_importance.csv",
+    index=False
+)
+
 print("\nTop 15 Important Features:")
 print(feature_importance.head(15))
+
+print("\nFeature Importance Saved!")
