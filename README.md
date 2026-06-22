@@ -86,6 +86,16 @@ The dataset contains realistic network traffic and modern attack scenarios inclu
 
 ![Detection Results](screenshots/dashboard_analysis.png)
 
+## System Architecture
+
+![Architecture](screenshots/architecture_diagram.png)
+
+## Model Evaluation
+
+### Confusion Matrix
+
+![Confusion Matrix](screenshots/confusion_matrix.png)
+
 ---
 
 ## Project Structure
